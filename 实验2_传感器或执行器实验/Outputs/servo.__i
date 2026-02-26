@@ -1,0 +1,7 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CMSIS -I..\Libraries\inc -I..\USER -I..\Project -I..\Libraries\src -I..\Libraries
+-I "C:\Users\贾惜妁\Desktop\学习\10. 单片机系统实验\02 例程\实验2\Project\RTE"
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1
+-I C:\Keil_v5\ARM\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD
+-o ..\outputs\servo.o --omf_browse ..\outputs\servo.crf --depend ..\outputs\servo.d "servo.c"

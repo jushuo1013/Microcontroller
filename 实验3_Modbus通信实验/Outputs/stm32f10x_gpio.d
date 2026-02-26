@@ -1,0 +1,12 @@
+..\outputs\stm32f10x_gpio.o: ..\Libraries\src\stm32f10x_gpio.c
+..\outputs\stm32f10x_gpio.o: ..\Libraries\inc\stm32f10x_gpio.h
+..\outputs\stm32f10x_gpio.o: ..\CMSIS\stm32f10x.h
+..\outputs\stm32f10x_gpio.o: ..\CMSIS\core_cm3.h
+..\outputs\stm32f10x_gpio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\outputs\stm32f10x_gpio.o: ..\CMSIS\system_stm32f10x.h
+..\outputs\stm32f10x_gpio.o: ..\USER\stm32f10x_conf.h
+..\outputs\stm32f10x_gpio.o: ..\Libraries\inc\stm32f10x_gpio.h
+..\outputs\stm32f10x_gpio.o: ..\Libraries\inc\stm32f10x_rcc.h
+..\outputs\stm32f10x_gpio.o: ..\CMSIS\stm32f10x.h
+..\outputs\stm32f10x_gpio.o: ..\Libraries\inc\stm32f10x_usart.h
+..\outputs\stm32f10x_gpio.o: ..\Libraries\inc\misc.h

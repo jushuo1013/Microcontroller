@@ -1,0 +1,13 @@
+..\outputs\misc.o: ..\Libraries\src\misc.c
+..\outputs\misc.o: ..\Libraries\inc\misc.h
+..\outputs\misc.o: ..\CMSIS\stm32f10x.h
+..\outputs\misc.o: ..\CMSIS\core_cm3.h
+..\outputs\misc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\outputs\misc.o: ..\CMSIS\system_stm32f10x.h
+..\outputs\misc.o: ..\USER\stm32f10x_conf.h
+..\outputs\misc.o: ..\Libraries\inc\stm32f10x_gpio.h
+..\outputs\misc.o: ..\CMSIS\stm32f10x.h
+..\outputs\misc.o: ..\Libraries\inc\stm32f10x_rcc.h
+..\outputs\misc.o: ..\Libraries\inc\stm32f10x_tim.h
+..\outputs\misc.o: ..\Libraries\inc\stm32f10x_usart.h
+..\outputs\misc.o: ..\Libraries\inc\misc.h

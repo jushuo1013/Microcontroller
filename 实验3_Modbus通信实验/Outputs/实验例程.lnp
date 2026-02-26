@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+"..\outputs\core_cm3.o"
+"..\outputs\system_stm32f10x.o"
+"..\outputs\startup_stm32f10x_md.o"
+"..\outputs\misc.o"
+"..\outputs\stm32f10x_gpio.o"
+"..\outputs\stm32f10x_rcc.o"
+"..\outputs\stm32f10x_usart.o"
+"..\outputs\stm32f10x_tim.o"
+"..\outputs\main.o"
+"..\outputs\gpio.o"
+"..\outputs\servo.o"
+--library_type=microlib --strict --scatter "..\Outputs\实验例程.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\Listings\实验例程.map" -o ..\Outputs\实验例程.axf
